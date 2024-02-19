@@ -1,3 +1,10 @@
 {
-  "show1": "hustlers"
+    "webseries": {
+            "hustlers": {
+                "id": "1",
+                "name": "hustlers",
+                "img": "https://m.media-amazon.com/images/S/pv-target-images/db34067fcee909cdfe8fa967314f9ddc5f1c85241d760db347034cd721d387f4.__SX1008__SY567__QL60__._TTH_.jpg"
+            }
+        }
+
 }
