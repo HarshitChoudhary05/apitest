@@ -1,0 +1,394 @@
+{
+  "subjects": [
+    {
+      "subject_name": "Maths",
+      "topics": [
+        {
+          "topic_name": "Revision Questions",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Interaction Session",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7a60b9f9-f03f-4cca-b49c-5d7098b9b701.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/a1f48e1b-cf22-4b1d-9248-54c3cf5cc721/master.mpd"
+        },
+        {
+          "topic_name": "Study Modules || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Advanced Session",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b63f337e-031a-41e6-ba20-d50034fa50f4.jpeg",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/ef064370-fc25-4a1e-a483-48ff2c771aec/master.mpd"
+        },
+        {
+          "topic_name": "Ch-01 : Basic Mathematics",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2b4312b8-6ef5-4451-b291-42b58577af17.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/5eab02c4-5b62-4bb8-a790-67b9f2765808/master.mpd"
+        },
+        {
+          "topic_name": "Ch-02 : Logarithm",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9fd15573-a160-49bd-9e29-80e21a6024c2.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/c91286aa-d7c4-46cc-9a49-9972bf8f730c/master.mpd"
+        },
+        {
+          "topic_name": "Ch-03 : Set Theory",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cef83ff6-e073-4721-a27f-d575de93447c.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/63f69631-df9c-40a7-bdb1-02fdecf09ca5/master.mpd"
+        },
+        {
+          "topic_name": "Ch-04 : Trigonometry",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b1d8acd4-8782-46ff-b3a6-e6177e3f287a.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/07dbc018-be56-4a7c-8142-461011fe4cfb/master.mpd"
+        },
+        {
+          "topic_name": "Ch-05 : Trigonometry-||",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b4abff44-8b5e-470a-9b05-4d8f78bb120e.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/fac78588-d93a-4b9c-96dd-d64340b31728/master.mpd"
+        },
+        {
+          "topic_name": "Ch-06 : Quadratic Equations",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/029b18d0-b1b7-4304-80fe-e594bcddc002.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/452d6886-bcc7-4114-9c56-4f92588fd04e/master.mpd"
+        },
+        {
+          "topic_name": "Ch-07 : Height and Distance",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/3c8cb20d-e492-4549-8ff0-48cf2075cc06.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/c58de2d7-6629-4a03-9940-579af375b2a4/master.mpd"
+        },
+        {
+          "topic_name": "Ch-08 : Complex Number Part-I",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/613ea9aa-89c7-4a26-81c5-1a549b70581c.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/99c67176-a0ec-485d-b034-c92aa13a4a1a/master.mpd"
+        },
+        {
+          "topic_name": "Ch-09 : Relation And Function",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d32a7589-0767-4e3d-9606-b7bb062afaf0.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/a0bfa977-7707-4cc2-a64a-b49a860455cf/master.mpd"
+        },
+        {
+          "topic_name": "Ch-10 : Sequence And Series",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c9e8e111-7649-453a-b5c3-629f112059c0.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/9746e207-e951-4745-96f5-25431c0d2830/master.mpd"
+        },
+        {
+          "topic_name": "Ch-11 : Logarithmic Inequalities",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/e3f372f5-aaf8-4d6d-9a43-df000e01fc4b.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/526ea180-656d-4913-9699-62d19af68a68/master.mpd"
+        },
+        {
+          "topic_name": "Ch-12 :Limits And Derivatives",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d74ff057-5110-469a-bb95-b589443fa65b.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/86f31dd2-8ced-48e5-8be0-12a06ec2ebad/master.mpd"
+        },
+        {
+          "topic_name": "Ch-13 : Straight line.",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/72bb0251-dff2-46f1-a30f-f8ebba7bb5a8.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/8fb7154a-9fdf-4b71-be79-b7977504f0dc/master.mpd"
+        },
+        {
+          "topic_name": "Ch-14 : Linear Inequalities",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d323be21-f58c-47ff-b64f-90737c3bc0c3.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/85e7fc44-c11d-4b26-868f-88a66d677b58/master.mpd"
+        },
+        {
+          "topic_name": "Ch-15 : Circle",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5d23abba-3e44-4e81-85de-fb2a44354a77.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/c3f4f277-d3b2-40a9-a5a1-8b9293246e11/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 16 : Mathematical Reasoning",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f962255b-7a7d-4419-8d34-45ee36db03ed.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/fa6c20be-46d8-4cbc-97e6-15eb083b0619/master.mpd"
+        }
+      ]
+    },
+    {
+      "subject_name": "Notices",
+      "topics": [
+        {
+          "topic_name": "Batch Demo Videos",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/78ad08aa-76b3-4d92-ad68-81b5462f529d.jpeg",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/4b97fdf6-3cf6-4ee5-b357-04f049e84900/master.mpd"
+        },
+        {
+          "topic_name": "Chemistry : Mind Maps",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c9750875-8490-4698-a12f-6698bf4d1c26.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/7c9a8152-7891-4c96-a7a5-e72cc57cc046/master.mpd"
+        },
+        {
+          "topic_name": "Maths : Mind Maps || Only PDF",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Physics : Mind Maps || Only PDF",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Lecture Planner || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Test Planner || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Class Schedule || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Telegram Group Link || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Test Paper's || Only PDF",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Test Solution",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9992ef6c-7e46-4f1c-9fa7-f5ea03ed07c5.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/235fe25d-365a-4761-a72c-b01568a94bde/master.mpd"
+        },
+        {
+          "topic_name": "Test Syllabus || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "PW Maharathi 2.0 II Only PDF",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "OMR Sheet || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Announcement",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/fc14431c-7250-4bd5-83e2-2f9c9e384fa6.jpeg",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/3cb7a350-0510-461b-9cad-4623f9e9e400/master.mpd"
+        },
+        {
+          "topic_name": "Self Awareness",
+          "image_url": "https://i.ytimg.com/vi/obRyiRe9-a8/mqdefault.jpg",
+          "video_url": "https://www.youtube.com/embed/obRyiRe9-a8"
+        },
+        {
+          "topic_name": "Handbook || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Board Pattern Test",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9752dd97-a0a1-4fe3-bb5f-d2c426dc4a91.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/68a75b88-d7b0-4a59-aee7-94ff5be44f53/master.mpd"
+        }
+      ]
+    },
+    {
+      "subject_name": "Physics",
+      "topics": [
+        {
+          "topic_name": "Study Modules || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Quick Revision",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/0c2f4ce5-4ce9-4eee-93dc-6f4395777d87.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/cef3b41b-c55b-4aef-a937-b96e6cf30daa/master.mpd"
+        },
+        {
+          "topic_name": "Ch-01 : Unit Dimension & Measurements",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/33ca7b07-ec61-4846-87b6-11c0c44756c4.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/7db7382a-8825-4570-989d-8d1032f1cdd6/master.mpd"
+        },
+        {
+          "topic_name": "Ch-02 : Basic Mathematics",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/64623791-f5d3-482a-a039-ae9807ff94d0.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/676de1a5-21a0-4b68-84d4-bca1f58e232c/master.mpd"
+        },
+        {
+          "topic_name": "Ch-03 : Motion In A Straight Line",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4ec1e344-18c8-40b7-827d-52f8f3a274bd.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/f927edbc-a768-4b0f-ba73-3da73e3e3c33/master.mpd"
+        },
+        {
+          "topic_name": "Ch-04 : Motion In A Plane",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ffbab560-28c6-4623-b0cf-4b5c8d07d9e5.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/96162bfe-fcee-44fc-9e17-abb863120f4f/master.mpd"
+        },
+        {
+          "topic_name": "Ch-05 : Newton\u2019s Laws Of Motion",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4563d4f3-6a3d-4132-aa92-4d783a1c4458.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/77b59d51-2a9b-47af-9d2b-23619d11a1b9/master.mpd"
+        },
+        {
+          "topic_name": "Ch-06 : Work Power Energy",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8742730b-6cb8-45af-bb7e-5c09fde47fbc.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/7bfff50c-3fce-4d81-bd2e-c9589548acf3/master.mpd"
+        },
+        {
+          "topic_name": "Ch-07 : Center Of Mass",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/0009278c-d53f-4eca-adf0-de769a9ff181.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/80791d0f-155e-457e-86ad-54721874c074/master.mpd"
+        },
+        {
+          "topic_name": "Ch-08 : Rotation Motion",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/10347364-376f-46d0-9b8f-311790b59b80.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/5fc0f32b-3815-426d-b504-2931112c9c97/master.mpd"
+        },
+        {
+          "topic_name": "Ch-09 : Mechanical Properties Of Fluids",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/0cf4e874-cf3e-4975-82bf-fa0c0b10562e.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/41261280-b6d0-4c35-94fb-f99a179dbe71/master.mpd"
+        },
+        {
+          "topic_name": "Ch-10 : Mechanical Properties Of Solids",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/77db2858-95e3-46c4-991b-82e53fa61631.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/a1378368-ea0c-46d2-bbe8-9854bc3f254d/master.mpd"
+        },
+        {
+          "topic_name": "Ch-11 : Thermal Properties Of Matter",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/17e16679-ac6d-49a6-9cf0-27bb133f3f17.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/ae869b2d-5125-43e3-b159-8bffca096d1c/master.mpd"
+        },
+        {
+          "topic_name": "Ch-12 : Gravitation",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2b1b71c8-8cec-476c-988c-e9571f364241.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/6c29cd32-3ef2-4ccc-ab1f-5bb1a749c583/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 13 : Kinetic Theory Of Gases & Thermodynamics",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7fb38618-6dec-499b-87e8-6ab9020ecd38.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/faee1b85-6b3e-4ceb-b545-4549890d7993/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 14 : Simple Harmonic Motion",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4114272a-3466-421d-891c-2cbe30ff55c0.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/8b56130a-0b65-499e-9fc0-79f120694c67/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 15 : Wave Motion",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/283796dd-ad88-415d-8698-9ce28dbad8e8.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/725672c7-0341-4c88-90d4-53c875c7c384/master.mpd"
+        }
+      ]
+    },
+    {
+      "subject_name": "Chemistry",
+      "topics": [
+        {
+          "topic_name": "Study Modules || (Only PDF)",
+          "image_url": "",
+          "video_url": ""
+        },
+        {
+          "topic_name": "Extra Practice Session (OC)",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9d37bf31-78d9-4fb3-853b-87ccf04962fa.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/c260cae0-aa37-48b7-b630-f6dad04c2a9c/master.mpd"
+        },
+        {
+          "topic_name": "Advanced Session",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/31d1342b-22bf-4c68-854f-729fbcdc1f3e.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/e8ec05ed-a937-402b-a72f-8193d4f2e9a5/master.mpd"
+        },
+        {
+          "topic_name": "Let's study with Amit sir",
+          "image_url": "https://i.ytimg.com/vi/zA2RsqRikPI/mqdefault.jpg",
+          "video_url": "https://www.youtube.com/embed/zA2RsqRikPI"
+        },
+        {
+          "topic_name": "Orientation Session",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5c54302a-0c5b-4b43-a986-5744ec86775a.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/440af3b1-cb0e-4c89-bd51-cf1b874f8214/master.mpd"
+        },
+        {
+          "topic_name": "Ch-01 : Some Basic Concept Of Chemistry",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/dc92dc9e-4e89-493d-a4a0-13e558e391d0.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/3437ee47-6495-494e-b721-5d8b6c847a98/master.mpd"
+        },
+        {
+          "topic_name": "Ch-02 : Atomic Structure",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cd5301be-137c-4695-a31d-2f95f10b93cd.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/36d896e1-4d4e-4d8b-addc-8c635772b9f3/master.mpd"
+        },
+        {
+          "topic_name": "Ch-03 : Periodic Classification",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/76230ab5-9f03-4f03-84ef-ecacd44ffa41.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/0105af71-e913-4539-a553-7ccec895c00d/master.mpd"
+        },
+        {
+          "topic_name": "Ch-04 : Chemical Bonding",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/081b9404-253b-4652-8112-e603354b1b2d.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/5f5e83ed-0f86-462e-a898-2dfba3452001/master.mpd"
+        },
+        {
+          "topic_name": "Ch-05 : States of Matter",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4801f2d2-5a83-46a2-8509-0c916fc93b34.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/60b2f799-9446-4689-a168-c7fba4b0b5ba/master.mpd"
+        },
+        {
+          "topic_name": "Ch-06 : Thermodynamics",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f7b3ef63-4090-4a01-b2bc-78bd1daeb3ef.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/3657c873-ca45-46c0-b30f-9d93ce7ebb98/master.mpd"
+        },
+        {
+          "topic_name": "Ch-07 : Chemical Equilibrium",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/5e0de5dd-1e9e-4b02-a703-22eb87553d0d.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/544d0e17-bd96-441f-a566-1d0a61bb4f69/master.mpd"
+        },
+        {
+          "topic_name": "Ch-08 : Nomenclature",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/6877f090-6f4f-4ee9-b961-66065d90b867.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/af26f820-bd43-4370-aa7e-1e3d9feba288/master.mpd"
+        },
+        {
+          "topic_name": "Ch-09 : Isomerism",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d80062c8-89e9-4eb4-81e1-1dbb074f2595.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/a0d1a115-176c-4256-948a-228606fce8ed/master.mpd"
+        },
+        {
+          "topic_name": "Ch-10 : Log & Antilog",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/00777f28-9f74-460d-aab9-6bf186d4700d.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/1f6e455f-50e6-46b0-8b36-0990abef78ef/master.mpd"
+        },
+        {
+          "topic_name": "Ch-11 : GOC",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/29845cb6-7285-484c-a312-4057d7f98533.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/c2b041cb-492e-4077-b115-a8fde8eb5459/master.mpd"
+        },
+        {
+          "topic_name": "Ch-12 : Isomerism (Extra Lecture)",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/1e01e665-65ad-4b7a-88d6-2fcc486953cf.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/10655975-c822-4810-b925-4dd72fae5f30/master.mpd"
+        },
+        {
+          "topic_name": "Ch-13 : Ionic Equilibrium",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2fb9dde9-6189-4c06-be0e-6e41dd016a21.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/97f24010-7c9f-4020-b0c4-ef77a1ea14b9/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 14 : S-Block",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4736fe32-e57e-492f-ae1f-4bc14ae5b7d5.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/8a6b2ccd-861e-49f1-8ac4-705974e00923/master.mpd"
+        },
+        {
+          "topic_name": "Ch- 15 : P-Block",
+          "image_url": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a177e0a6-a34e-4685-8332-5794d79234f8.png",
+          "video_url": "https://d1d34p8vz63oiq.cloudfront.net/842f0a68-c0bf-4a65-88db-06ac764c8fb9/master.mpd"
+        }
+      ]
+    }
+  ]
+}
