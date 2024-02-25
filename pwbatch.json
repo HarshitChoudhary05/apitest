@@ -1,29 +1,19 @@
 {
   "batches": {
     "batch1": {
-      "name": "VIJETA SERIES CLASS-12TH",
-      "slug": "vijeta-series-class-12th-972590",
-      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cf3beb97-aff0-4f94-82cf-0b665ffbf29a.jpg"
+      "name": "Arjuna JEE 2.0 2023",
+      "slug": "arjuna-jee-2-0-2023-234727",
+      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/bbe6d693-7ff6-4daf-ad0f-a8469038cc1b.png"
     },
     "batch2": {
-      "name": "MANZIL for JEE 2024",
-      "slug": "manzil-for-jee-2024-387081",
-      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/20db24b0-4759-47aa-b7b2-efe5608143c0.jpeg"
+      "name": "Arjuna JEE 3.0 2023",
+      "slug": "arjuna-jee-3-0-2023-122808",
+      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8ae75dcf-2d2e-4fe6-897e-1e6e13efd06d.png"
     },
     "batch3": {
-      "name": "JEE Mindmap",
-      "slug": "jee-mindmap-764308",
-      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c4e97ec2-f3a6-424c-a994-f3c2e856a62b.png"
-    },
-    "batch4": {
-      "name": "JEE Advance 2023 Batch",
-      "slug": "jee-advance-2023-batch-298382",
-      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/366763af-afe6-44cf-87a8-85bc90990efa.jpg"
-    },
-    "batch5": {
-      "name": "Manzil for JEE Advanced",
-      "slug": "manzil-for-jee-advanced-559120",
-      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2a56abca-7191-4dab-a552-e522047959dd.jpg"
+      "name": "Arjuna JEE 2023",
+      "slug": "arjuna-jee-2023-426578",
+      "img": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b6de786f-81d5-46bb-b149-6e3d5f19f228.png"
     }
   }
 }
