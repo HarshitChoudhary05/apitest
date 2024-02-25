@@ -1,260 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hustlers Episodes</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request and DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
 
-    .container {
-     
-    }
+        #container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    .tabs-container {
-      overflow-x: auto;
-      white-space: nowrap;
-      margin-bottom: 10px;
-    }
+        #subjects, #topics, #details {
+            margin-bottom: 20px;
+        }
 
-    .tab {
-      display: inline-block;
-      background-color: transparent;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      margin-right: 10px;
-      position: relative;
-      font-size: 16px;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
 
-    .tab:hover {
-      background-color: #ddd;
-    }
+        .btn:hover {
+            background-color: #45a049;
+        }
 
-    .tab.active {
-      background-color: #007bff;
-      color: #fff;
-    }
+        .video-div {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
 
-    .tab.active:hover {
-      background-color: #0056b3;
-    }
+        .video-div img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
 
-    .episodes {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+        .video-div h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #333;
+        }
 
-    .episode {
-      margin: 10px;
-      cursor: pointer;
-      padding: 10px;
-      border-radius: 10px;
-      background-color: #fff;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-      width: 200px;
-      overflow: hidden;
-      position: relative;
-    }
+        .video-div a {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
 
-    .episode:hover {
-      transform: translateY(-5px);
-    }
+        .video-div a:hover {
+            background-color: #45a049;
+        }
 
-    .episode img {
-      max-width: 100%;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
+        #backBtn {
+            display: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
 
-    .episode:hover img {
-      transform: scale(1.1);
-    }
+        #backBtn:hover {
+            background-color: #555;
+        }
 
-    .episode-title {
-      font-weight: bold;
-      margin-top: 10px;
-      text-align: center;
-    }
+        @media screen and (max-width: 600px) {
+            .btn {
+                width: 100%;
+            }
 
-    .separator {
-      border-top: 1px solid #ccc;
-      margin: 20px 0;
-    }
-
-    .loading {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.8);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 999;
-    }
-
-    .loading span {
-      font-size: 24px;
-      font-weight: bold;
-      color: #333;
-      animation: pulse 1s infinite alternate;
-    }
-
-    @keyframes pulse {
-      0% {
-        opacity: 0.5;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  </style>
+            #backBtn {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="loading" id="loading" style="display: none;">
-    <span>Loading...</span>
-  </div>
 
-  <div class="container">
-    <div class="tabs-container" id="subjectTabs">
-    </div>
-    <div class="separator"></div>
-    <div class="tabs-container" id="seasonTabs">
-    </div>
-    <div class="episodes" id="episodes">
-    </div>
-  </div>
+<div id="container">
+    <button id="backBtn">Back</button>
+    <div id="subjects"></div>
+    <div id="topics"></div>
+    <div id="details"></div>
+   
+</div>
 
-  <script>
-    let currentSubjectIndex = 0;
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var currentView = "subjects"; // Initial view
 
-    function handleEpisodeClick(url) {
-      sessionStorage.setItem('videoUrl', url);
-      window.location.href = '../player.html';
-    }
+        // Make API request to get data
+        $.get("https://harshitchoudhary05.github.io/apitest/pwvideo.json", function (data) {
+            // Create buttons for each subject
+            data.subjects.forEach(function (subject) {
+                $("#subjects").append(`<button class="btn subject-btn">${subject.subject_name}</button>`);
+            });
 
-    function showLoading() {
-      document.getElementById('loading').style.display = 'flex';
-    }
+            // Event listener for subject buttons
+            $(".subject-btn").click(function () {
+                // Hide all subject buttons
+                $(".subject-btn").hide();
 
-    function hideLoading() {
-      document.getElementById('loading').style.display = 'none';
-    }
+                // Get the selected subject name
+                var subjectName = $(this).text();
 
-    function loadEpisodes(topicData) {
-      const episodesContainer = document.getElementById('episodes');
-      episodesContainer.innerHTML = '';
+                // Find topics for the selected subject
+                var topics = data.subjects.find(s => s.subject_name === subjectName).topics;
 
-      topicData.forEach(topic => {
-        const topicDiv = document.createElement('div');
-        topicDiv.classList.add('episode');
-        topicDiv.onclick = function() {
-          handleEpisodeClick(topic.video_url);
-        };
+                // Create buttons for each topic
+                topics.forEach(function (topic) {
+                    $("#topics").append(`<button class="btn topic-btn">${topic.topic_name}</button>`);
+                });
 
-        const img = document.createElement('img');
-        img.src = topic.image_url;
+                // Show back button
+                $("#backBtn").show();
 
-        const title = document.createElement('div');
-        title.classList.add('episode-title');
-        title.textContent = topic.video_title;
+                currentView = "topics"; // Update current view
 
-        topicDiv.appendChild(img);
-        topicDiv.appendChild(title);
-        episodesContainer.appendChild(topicDiv);
-      });
-    }
+                // Event listener for topic buttons
+                $(".topic-btn").click(function () {
+                    // Hide all topic buttons
+                    $(".topic-btn").hide();
 
-    function showTopic(topics) {
-      showLoading();
-      const xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          hideLoading();
-          if (this.status == 200) {
-            const responseData = JSON.parse(this.responseText);
-            const topicData = responseData.subjects[currentSubjectIndex].topics[topics].details;
-            loadEpisodes(topicData);
-          } else {
-            console.error('Error loading data');
-          }
-        }
-      };
-      xhttp.open("GET", "https://harshitchoudhary05.github.io/apitest/pwvideo.json", true); // Replace with your actual API URL
-      xhttp.send();
-    }
+                    // Get the selected topic name
+                    var topicName = $(this).text();
 
-    function createTabs(topics) {
-      const seasonTabs = document.getElementById('seasonTabs');
-      seasonTabs.innerHTML = ''; // Clear existing tabs
+                    // Find details for the selected topic
+                    var details = data.subjects.find(s => s.subject_name === subjectName)
+                        .topics.find(t => t.topic_name === topicName).details;
 
-      topics.forEach((topic, index) => {
-        const button = document.createElement('button');
-        button.textContent = topic.topic_name;
-        button.classList.add('tab');
-        if (index === 0) {
-          button.classList.add('active');
-        }
-        button.onclick = function() {
-          const activeTab = document.querySelector('.tab.active');
-          if (activeTab) {
-            activeTab.classList.remove('active');
-          }
-          button.classList.add('active');
-          showTopic(index);
-        }
-        seasonTabs.appendChild(button);
-      });
-    }
+                    // Create a div for each detail
+                    details.forEach(function (detail) {
+                        $("#details").append(`<div class="video-div">
+                                                <img src="${detail.image_url}" alt="${detail.video_title}">
+                                                <h3>${detail.video_title}</h3>
+                                                <a href="${detail.video_url}" target="_blank">Watch Video</a>
+                                             </div>`);
+                    });
 
-    // Fetch the data and create tabs
-    const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4) {
-        if (this.status == 200) {
-          const responseData = JSON.parse(this.responseText);
-          const subjects = responseData.subjects;
+                    // Show back button
+                    $("#backBtn").show();
 
-          const subjectTabs = document.getElementById('subjectTabs');
-          subjects.forEach((subject, index) => {
-            const button = document.createElement('button');
-            button.textContent = subject.subject_name;
-            button.classList.add('tab');
-            if (index === 0) {
-              button.classList.add('active');
+                    currentView = "details"; // Update current view
+                });
+            });
+        });
+
+        // Back button functionality
+        $("#backBtn").click(function () {
+            if (currentView === "topics") {
+                // Show subject buttons
+                $(".subject-btn").show();
+                // Clear topics
+                $("#topics").empty();
+                // Hide back button
+                $("#backBtn").hide();
+
+                currentView = "subjects"; // Update current view
+            } else if (currentView === "details") {
+                // Show topic buttons
+                $(".topic-btn").show();
+                // Clear details
+                $("#details").empty();
+
+                currentView = "topics"; // Update current view
             }
-            button.onclick = function() {
-              const activeTab = document.querySelector('.tab.active');
-              if (activeTab) {
-                activeTab.classList.remove('active');
-              }
-              button.classList.add('active');
-              currentSubjectIndex = index;
-              createTabs(subject.topics);
-              showTopic(0); // Show the first topic by default
-            }
-            subjectTabs.appendChild(button);
-          });
-        } else {
-          console.error('Error loading data');
-        }
-      }
-    };
-    xhttp.open("GET", "https://harshitchoudhary05.github.io/apitest/pwvideo.json", true); // Replace with your actual API URL
-    xhttp.send();
-  </script>
+        });
+    });
+</script>
 
 </body>
 </html>
