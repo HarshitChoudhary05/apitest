@@ -1,0 +1,169 @@
+{
+  "classes": [
+    {
+      "class": "Class 1",
+      "sections": [
+        {
+          "section": "Section A",
+          "students": [
+            "John Doe",
+            "Jane Smith",
+            "Michael Johnson",
+            "Emily Brown",
+            "David Lee",
+            "Sarah Wilson",
+            "Samantha Miller",
+            "Daniel White",
+            "Jessica Taylor",
+            "Andrew Martinez",
+            "Olivia Anderson",
+            "William Thomas",
+            "Sophia Garcia",
+            "Ethan Hernandez",
+            "Ava Martinez",
+            "Benjamin Young",
+            "Mia Rodriguez",
+            "James Martinez",
+            "Chloe Wilson",
+            "Jacob Brown"
+          ]
+        },
+        {
+          "section": "Section B",
+          "students": [
+            "Emma Thompson",
+            "Noah Evans",
+            "Lily Clark",
+            "Matthew Turner",
+            "Grace Mitchell",
+            "Lucas Carter",
+            "Avery Ward",
+            "Elijah Morris",
+            "Aria Cooper",
+            "Jackson Rivera",
+            "Sofia Collins",
+            "Logan Ward",
+            "Amelia Adams",
+            "Jacob Griffin",
+            "Sophia Hayes",
+            "Ethan Powell",
+            "Ava Watson",
+            "Liam Parker",
+            "Charlotte Murphy",
+            "Mason Bennett"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Class 2",
+      "sections": [
+        {
+          "section": "Section A",
+          "students": [
+            "Ella Foster",
+            "Alexander Simmons",
+            "Madison Price",
+            "Daniel Perry",
+            "Chloe Brooks",
+            "Carter Hughes",
+            "Aurora Long",
+            "Landon Simmons",
+            "Grace Parker",
+            "Ethan Jenkins",
+            "Ava Fisher",
+            "Lucas Richardson",
+            "Lily Stewart",
+            "Elijah Ross",
+            "Harper Jenkins",
+            "Matthew Cooper",
+            "Emily Murphy",
+            "Mason Howard",
+            "Sophia Kelly",
+            "Jacob Edwards"
+          ]
+        },
+        {
+          "section": "Section B",
+          "students": [
+            "Olivia Bailey",
+            "Liam Bennett",
+            "Isabella Wood",
+            "William Nelson",
+            "Mia Stewart",
+            "Benjamin Coleman",
+            "Sophia Russell",
+            "Ethan Watson",
+            "Ava Morris",
+            "Logan Torres",
+            "Charlotte Griffin",
+            "Lucas Powell",
+            "Avery Cox",
+            "Jackson Barnes",
+            "Emma Ward",
+            "Daniel Foster",
+            "Emily Bell",
+            "Carter Hughes",
+            "Madison Brooks",
+            "Matthew Bennett"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Class 3",
+      "sections": [
+        {
+          "section": "Section A",
+          "students": [
+            "Abigail Hayes",
+            "Henry Gray",
+            "Ella Barnes",
+            "Jack Turner",
+            "Avery Hill",
+            "Liam Coleman",
+            "Aria Wright",
+            "Ethan Bell",
+            "Charlotte Price",
+            "Noah Long",
+            "Sophia Diaz",
+            "Elijah Fisher",
+            "Ava Scott",
+            "Lucas Kelly",
+            "Olivia Cox",
+            "Carter Ward",
+            "Isabella Richardson",
+            "Mason Martinez",
+            "Emily Mitchell",
+            "Logan Perry"
+          ]
+        },
+        {
+          "section": "Section B",
+          "students": [
+            "Aurora Simmons",
+            "Jacob Murphy",
+            "Harper Thompson",
+            "Matthew Collins",
+            "Sophia Parker",
+            "Jackson Jenkins",
+            "Emma Davis",
+            "William Rivera",
+            "Madison Young",
+            "Daniel Gray",
+            "Chloe Torres",
+            "Alexander Hayes",
+            "Lily Bell",
+            "Benjamin Wright",
+            "Ella Foster",
+            "Lucas Cooper",
+            "Avery Bennett",
+            "Olivia Wood",
+            "Liam Hughes",
+            "Isabella Turner"
+          ]
+        }
+      ]
+    }
+  ]
+}
